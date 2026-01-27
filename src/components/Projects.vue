@@ -1,7 +1,7 @@
 <script setup>
 
 import ProjectsCard from './ProjectCard.vue'; 
-import Ajeate from '../assets/Ajeate.png';
+import Ajeate from '../assets/Ajeate.PNG';
 import Portafolio from '../assets/Portafolio.PNG';
 </script>
 
@@ -36,7 +36,7 @@ import Portafolio from '../assets/Portafolio.PNG';
           borderColor="border-primary" 
           bgColor="bg-primary" 
           textColor="text-primary"
-          irA="#"
+          irA="https://github.com/nuzzodev/MiPortafolio"
         />
       </div>
 
