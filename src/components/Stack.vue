@@ -1,5 +1,5 @@
 <script setup>
-import TechCard from './TechCard.vue';
+import TechCard from './CardsComponents/TechCard.vue';
 
 const frontend = [
   { name: 'Vue.js', icon: 'devicon-vuejs-plain colored', featured:true },

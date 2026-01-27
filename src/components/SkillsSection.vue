@@ -1,5 +1,5 @@
 <script setup>
-import SkillBadge from './SkillBadge.vue';
+import SkillBadge from './CardsComponents/SkillBadge.vue';
 
 const redSkills = [
   { name: 'Redes & Conectividad', desc: 'Conocimientos cursados en el 4to semestre de informática.' }, // [cite: 13]

@@ -10,10 +10,8 @@
     scroll-behavior: smooth;
   }
   body {
-    /* 1. Color base del tema */
     @apply bg-base-100 text-base-content min-h-screen relative;
     
-    /* 2. La Rejilla como imagen de fondo del body */
     background-image: 
       linear-gradient(to right, rgb(0, 80, 80) 1px, transparent 1px), 
       linear-gradient(to bottom,rgb(1, 80, 80) 1px, transparent 1px);
@@ -21,7 +19,6 @@
     background-attachment: fixed;
   }
 
-  /* 3. El degradado para que no sea tan chillón */
   body::before {
     content: "";
     position: fixed;

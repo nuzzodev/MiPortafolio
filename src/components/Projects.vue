@@ -1,6 +1,6 @@
 <script setup>
 
-import ProjectsCard from './ProjectCard.vue'; 
+import ProjectsCard from './CardsComponents/ProjectCard.vue'; 
 import Ajeate from '../assets/Ajeate.PNG';
 import Portafolio from '../assets/Portafolio.PNG';
 </script>
