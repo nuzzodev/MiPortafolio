@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import ThemeSwitcher from './ThemeSwitcher.vue';
+
+</script>
+
 <template>
   <header class="sticky top-0 z-50 w-full">
     <div class="navbar bg-base-100 shadow-md px-4 md:px-8">
@@ -9,6 +14,7 @@
           </h2>
         </a>
       </div>
+      <ThemeSwitcher/>
 
       <div class="flex-none hidden md:block">
         <ul class="menu menu-horizontal p-0 gap-2">

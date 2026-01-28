@@ -6,10 +6,12 @@ import Projects from './components/Projects.vue';
 import SkillsSection from './components/SkillsSection.vue';
 import ContactSection from './components/ContactSection.vue';
 import Footer from './components/Footer.vue';
+
 </script>
 
 <template>
   <NavBar/>
+
   <PresentationHero id="Inicio"/>
   <Stack id="stack"/>
   <SkillsSection id="habilidades"/>

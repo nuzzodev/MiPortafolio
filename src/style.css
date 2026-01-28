@@ -2,7 +2,7 @@
 @plugin "daisyui";
 
 @plugin "daisyui" {
-  themes: cyberpunk, cupcake, dark, nord;
+  themes: cyberpunk, cupcake, dark, nord, corporate;
 }
 
 @layer base {

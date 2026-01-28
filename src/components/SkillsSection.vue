@@ -22,7 +22,7 @@ const softSkills = [
     <div class="max-w-6xl mx-auto">
       
       <div class="text-center mb-20">
-        <h2 class="text-6xl font-black mb-4 uppercase tracking-tighter">
+        <h2 class="text-5xl font-black mb-4 uppercase tracking-tighter">
           Mis <span class="text-accent">Habilidades</span>
         </h2>
         <div class="divider w-32 mx-auto divider-accent"></div>
