@@ -7,6 +7,23 @@ import SkillsSection from './components/SkillsSection.vue';
 import ContactSection from './components/ContactSection.vue';
 import Footer from './components/Footer.vue';
 
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const savedTheme = localStorage.getItem('theme');
+  const htmlElement = document.documentElement;
+
+  if (savedTheme) {
+    // Si el usuario ya eligió uno manualmente, usamos ese
+    htmlElement.setAttribute('data-theme', savedTheme);
+  } else {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initialTheme = prefersDark ? 'dark' : 'corporate';
+    
+    htmlElement.setAttribute('data-theme', initialTheme);
+  }
+});
+
 </script>
 
 <template>

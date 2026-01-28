@@ -27,8 +27,7 @@ const handleSubmit = async (event) => {
 </script>
 
 <template>
-  <section class="py-20 px-6 relative bg-black/70">
-    <div class="max-w-4xl mx-auto relative z-10">
+  <section class="py-20 px-6 relative bg-black/70"> <div class="max-w-4xl mx-auto relative z-10">
       
       <div class="text-center mb-16">
         <h2 class="text-5xl font-black mb-4 uppercase tracking-tighter">
@@ -47,7 +46,7 @@ const handleSubmit = async (event) => {
             type="text" 
             name="fi-sender-firstName" 
             required
-            class="bg-black border-2 border-accent p-4 text-white focus:outline-none rounded-2xl"
+            class="bg-base-100 border-2 border-accent p-4 focus:outline-none rounded-2xl"
             placeholder="Tu nombre completo"
           >
         </div>
@@ -58,7 +57,7 @@ const handleSubmit = async (event) => {
             type="email" 
             name="fi-sender-email" 
             required
-            class="bg-black border-2 border-accent p-4 text-white focus:outline-none rounded-2xl"
+            class="bg-base-100 border-2 border-accent p-4 focus:outline-none rounded-2xl"
             placeholder="tu@email.com"
           >
         </div>
@@ -69,7 +68,7 @@ const handleSubmit = async (event) => {
             type="text" 
             name="fi-text-subject" 
             required
-            class="bg-black border-2 border-accent p-4 text-white focus:outline-none rounded-2xl"
+            class="bg-base-100 border-2 border-accent p-4 focus:outline-none rounded-2xl"
             placeholder="¿Sobre qué quieres hablar?"
           >
         </div>
@@ -80,7 +79,7 @@ const handleSubmit = async (event) => {
             name="fi-text-message" 
             rows="5" 
             required
-            class="bg-black border-2 border-accent p-4 text-white focus:outline-none resize-none rounded-2xl"
+            class="bg-base-100 border-2 border-accent p-4 focus:outline-none resize-none rounded-2xl"
             placeholder="Escribe tu mensaje aquí..."
           ></textarea>
         </div>
@@ -88,7 +87,7 @@ const handleSubmit = async (event) => {
         <div class="md:col-span-2 text-center mt-4">
           <button 
             type="submit" 
-            class="btn btn-accent text-base-300 font-black uppercase"
+            class="btn btn-accent text-base-100 font-black uppercase"
           >
             Enviar Mensaje
           </button>
